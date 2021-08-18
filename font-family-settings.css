@@ -1,0 +1,35 @@
+/* 
+* 中文字體設定 - 快速上手筆記本
+* Version: 0.2
+* Author: 柔和企鵝工作室 https://mellowpenguin.com 
+* 
+* Reference: 
+* W3C Recommendation: https://www.w3.org/TR/CSS21/fonts.html#font-family-prop 
+* Google Noto Sans: https://www.google.com/get/noto/help/guidelines/ 
+*/
+
+/* Sans-serif 黑體字體 */
+body {
+    font-family:
+        /* Google fonts */
+        "Noto Sans", "Noto Sans CJK TC",
+        /* Apple fonts */
+        "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang TC",
+        /* Windows fonts */
+        "Segoe UI", SegoeUI, "Microsoft JhengHei", 微軟正黑體,
+        /* Generic fonts */
+        "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/* Serif 明體字體 */
+body {
+    /* TBC 未完工 */
+}
+
+
+
+/* Log
+20210818 v0.2: small bugs fixed
+20210818 v0.1: first settting
+ */
