@@ -1,6 +1,6 @@
 /* 
 * 中文字體設定 - 快速上手筆記本
-* Version: 0.2
+* Version: 0.3
 * Author: 柔和企鵝工作室 https://mellowpenguin.com 
 * 
 * Reference: 
@@ -11,12 +11,12 @@
 /* Sans-serif 黑體字體 */
 body {
     font-family:
-        /* Google fonts */
-        "Noto Sans", "Noto Sans CJK TC",
         /* Apple fonts */
-        "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang TC",
+        "SF Pro Text", "SF Pro Icons", "PingFang TC",
         /* Windows fonts */
         "Segoe UI", SegoeUI, "Microsoft JhengHei", 微軟正黑體,
+        /* Google fonts */
+        "Noto Sans", "Noto Sans CJK TC",
         /* Generic fonts */
         "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -30,6 +30,9 @@ body {
 
 
 /* Log
+20210819 v0.3: 
+- delete "SF Pro TC" which is the same as Pingfang TC; 
+- rearrange the order: Apple - Microsoft - Google
 20210818 v0.2: small bugs fixed
 20210818 v0.1: first settting
  */
